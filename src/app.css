@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  align-items: center;
+  align-content: center;
+  height: 85vh;
+  width: 85vw;
+}

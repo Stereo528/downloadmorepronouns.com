@@ -7,11 +7,29 @@
     :global(html) {
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        background-color: theme(colors.primary);
     }
 </style>
 
-<div class="mt-8 gap-4 text-text">
-    <div class="top-align text-3xl"><h1>Welcome!</h1></div>
-    <div><p class="mt-4 h">This website is very Work In Progress! Please check back later for a more indepth experience!</p></div>
-</div>
+<script>
+    import Header from "../components/Header.svelte";
+    import {base} from "$app/paths";
+</script>
+
+<Header />
+
+<main class="flex py-2 bg-background justify-center">
+    <div class="text-text dark:text-dark-text container flex justify-center">
+        <div class="rounded-lg border-accent">
+            <h1 class="text-6xl self-center">Download More Pronouns</h1>
+            <p class="text-2xl ">Download more pronouns for your device!</p>
+            <div class="justify-evenly mt-8">
+                <a href="{base}/pronouns" class="bg-secondary rounded-lg p-2 m-2">Download for Windows</a>
+                <a href="{base}/pronouns" class="bg-secondary rounded-lg p-2 m-2">Download for Mac</a>
+                <a href="{base}/pronouns" class="bg-secondary rounded-lg p-2 m-2">Download for Linux</a>
+            </div>
+            <p class="mt-4">Use another OS? <a href="{base}/pronouns" class="bg-primary rounded-lg p-1 m-2">No Worries</a></p>
+        </div>
+        
+    </div>
+    
+</main>
