@@ -9,5 +9,4 @@
         <a href="{base}/pronouns" class="p-1 lg:p-2 text-sm sm:text-xl lg:text-2xl hover:text-dull-lavender-600">Pronouns</a>
         <a href="{base}/blog" class="p-1 lg:p-2 text-sm sm:text-xl lg:text-2xl hover:text-dull-lavender-600">Blog</a>
     </nav>
-    
 </div>

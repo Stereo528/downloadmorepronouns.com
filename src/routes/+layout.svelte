@@ -9,10 +9,12 @@
 <script>
     import "../app.css";
     import Header from "../components/Header.svelte";
+    import Footer from "../components/Footer.svelte";
 </script>
   
 <Header />
 
 <main class="mt-8 gap-4 text-dull-lavender-950 justify-center flex">
     <slot />
+    <Footer />
 </main>
