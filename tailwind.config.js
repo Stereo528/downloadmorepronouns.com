@@ -11,15 +11,22 @@ export default {
     },
     extend: {
       colors: {
-        'text': "#030911",
-        'background': "#ebdef2",
-        'primary': "#e1c4f4",
-        'secondary': "#b8b7c2",
-        'accent': "#8824c6",
-        'text-dark': '#ebdef2',
-        'background-dark': '#100028',
-        'primary-dark': '#3a134e',
-        'accent-dark': '#cb97ec', 
+        'dull-lavender': {
+          '50': '#f1f4fc',
+          '100': '#e6e9f9',
+          "150": "#DCE0F6",
+          '200': '#d2d7f3',
+          '300': '#b6bdeb',
+          '400': '#9498e0',
+          '450': "#898ADB",
+          '500': '#807ed6',
+          '600': '#6e65c6',
+          '700': '#5f54ae',
+          '800': '#4d468d',
+          '850': "#48427F",
+          '900': '#423e71',
+          '950': '#272442',
+        }
       },
       fontFamily: {
         'poppins': ['Poppins'],
@@ -27,5 +34,5 @@ export default {
     },
   },
   plugins: [],
-}
 
+}

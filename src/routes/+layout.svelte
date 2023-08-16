@@ -2,10 +2,10 @@
     :global(html) {
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        background-color: theme(colors.background);
+        background-color: theme(colors.dull-lavender.100);
     }
     :global(html.dark) {
-        background-color: theme(colors.background-dark);
+        background-color: theme(colors.dull-lavender.950);
     }
 </style>
 
@@ -16,6 +16,6 @@
   
 <Header />
 
-<main class="mt-8 gap-4 text-text dark:text-text-dark justify-center flex">
+<main class="mt-8 gap-4 text-dull-lavender-950 dark:text-dull-lavender-200 justify-center flex">
     <slot />
 </main>
