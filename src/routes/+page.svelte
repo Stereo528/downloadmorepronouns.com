@@ -7,7 +7,7 @@
 </script>
 
 <div class="inline-flex justify-center content-center">
-    <div class="rounded-lg border-accent content-center">
+    <div class="rounded-lg content-center">
         <h1 class="text-7xl">Download More Pronouns</h1>
         <p class="text-3xl ">Download more pronouns for your device!</p>
         <div class="justify-evenly mt-8">
